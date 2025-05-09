@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AI Tic-Tac-Toe</h1>
+    <div id="board" class="board"></div>
+    <p id="status">Your turn (You = X)</p>
+    <h2>Leaderboard</h2>
+<div class="leaderboard">
+  <p><strong>X Wins:</strong> <span id="xWins">0</span></p>
+  <p><strong>O Wins:</strong> <span id="oWins">0</span></p>
+  <p><strong>Draws:</strong> <span id="draws">0</span></p>
+</div>
+
+    <button onclick="resetGame()">Restart Game</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
